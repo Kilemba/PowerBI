@@ -41,7 +41,7 @@ A dialog will appear showing all available data source categories. Click **Datab
 | **Oracle** | Enterprise Oracle databases |
 | **Azure SQL Database** | Microsoft cloud-hosted SQL |
 
-![Power BI data source selection dialog showing database options](screenshot_datasource_dialog)
+![Power BI data source selection dialog showing database options](https://github.com/Kilemba/PowerBI/blob/main/assets/Database%20connection.png)
 
 Click **Connect** after selecting your database type.
 
