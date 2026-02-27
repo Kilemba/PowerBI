@@ -15,7 +15,7 @@ Power BI supports connections to a wide range of database types including **SQL 
 
 Launch **Power BI Desktop** from your applications. You will land on the start screen or an existing report canvas.
 
->  Don't have Power BI Desktop? Download it free from [Microsoft's official site](https://powerbi.microsoft.com/desktop).
+>  Don't have Power BI Desktop? Download it free from [PowerBI Dashboard](https://powerbi.microsoft.com/desktop).
 
 ---
 
@@ -23,7 +23,7 @@ Launch **Power BI Desktop** from your applications. You will land on the start s
 
 On the **Home** ribbon at the top, click the **Get Data** button (or the dropdown arrow next to it for a quick list of sources).
 
-![Power BI Get Data ribbon button showing data source options](screenshot_get_data_ribbon)
+![Power BI Get Data ribbon button showing data source options](https://github.com/Kilemba/PowerBI/blob/main/image.png)
 
 > The **Get Data** menu is your gateway to all data sources — local files, cloud services, and databases.
 
