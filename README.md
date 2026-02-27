@@ -9,7 +9,6 @@ Step-by-step Markdown guide (with screenshots) on connecting Power BI to a datab
 
 Power BI supports connections to a wide range of database types including **SQL Server**, **MySQL**, **PostgreSQL**, **Oracle**, **Azure SQL** and more.
 
----
 
 ### Step 1: Open Power BI Desktop
 
@@ -17,7 +16,6 @@ Launch **Power BI Desktop** from your applications. You will land on the start s
 
 >  Don't have Power BI Desktop? Download it free from ![PowerBI Dashboard](https://github.com/Kilemba/PowerBI/blob/main/assets/PowerBI%20dashboard.png).
 
----
 
 ### Step 2: Click "Get Data"
 
@@ -27,7 +25,6 @@ On the **Home** ribbon at the top, click the **Get Data** button (or the dropdow
 
 > The **Get Data** menu is your gateway to all data sources - local files, cloud services and databases.
 
----
 
 ### Step 3: Choose Your Database Type
 
@@ -45,7 +42,6 @@ A dialog will appear showing all available data source categories. Click **Datab
 
 Click **Connect** after selecting your database type.
 
----
 
 ### Step 4: Enter Connection Details
 
@@ -63,7 +59,6 @@ A connection dialog will appear. Fill in the required fields:
 
 Click **OK** to proceed.
 
----
 
 ### Step 5: Authenticate
 
@@ -75,7 +70,6 @@ Power BI will prompt you to authenticate with the database. Choose the appropria
 
 Enter your credentials and click **Connect**.
 
----
 
 ### Step 6: Select Tables & Load Data
 
@@ -91,13 +85,11 @@ The **Navigator** window will appear showing all available tables and views in t
 
 Once loaded, your tables will appear in the **Fields** pane on the right side of Power BI Desktop, ready for building visualizations.
 
----
 
 ## 2. Exporting & Sharing Files from Power BI
 
 Once you've built your report, Power BI offers several ways to export and share it.
 
----
 
 ### Option A: Export as PDF
 
@@ -121,7 +113,6 @@ Exporting to PDF creates a static, print-ready document of your report - ideal f
 
 >  **Note:** Visuals are rendered at the current filter/slicer state when you export. Adjust filters before exporting to get the exact view you need.
 
----
 
 ### Option B: Export as PowerPoint (PPTX)
 
@@ -146,7 +137,6 @@ Power BI can export each report page as a **PowerPoint slide**, making it easy t
 1. Go to **File** > **Export** > **Export to PowerPoint**
 2. The report will be rendered and saved as a `.pptx` file
 
----
 
 ### Option C: Publish to Power BI Service
 
@@ -165,13 +155,11 @@ Publishing makes your report available online where team members can view it in 
 
 > Your report is now live at `app.powerbi.com` and can be shared with a link, embedded in SharePoint or used to set up email subscriptions.
 
----
 
 ## 3. Sending Reports via Email (PDF/PPT)
 
 Power BI offers both **automated scheduled email delivery** and **manual export + send** options.
 
----
 
 ### Method 1: Email Subscriptions (Power BI Service)
 
@@ -202,7 +190,6 @@ Subscriptions let you (and others) receive **automatic email snapshots** of a re
 
 >  Recipients will receive an email with a **snapshot image** of the report and (optionally) a **PDF or PPT attachment** on the schedule you set. They do not need a Power BI account to view the attachment.
 
----
 
 ### Method 2: Manually Send an Exported File
 
@@ -222,8 +209,6 @@ Open your email client (Outlook, Gmail, etc.) and compose a new email:
 4. Click **Send**
 
 >  **For Outlook users:** You can also right-click the exported file in File Explorer > **Send to** → **Mail recipient** to quickly open a pre-attached email draft.
-
----
 
 ### Bonus: Send via Microsoft Teams
 
