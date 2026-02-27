@@ -4,27 +4,6 @@ Step-by-step Markdown guide (with screenshots) on connecting Power BI to a datab
 
 > A practical walkthrough for connecting to databases, exporting files, and sending reports via email — all from Microsoft Power BI.
 
----
-
-## Table of Contents
-
-1. [Accessing Data from a Database](#1-accessing-data-from-a-database)
-   - [Step 1: Open Power BI Desktop](#step-1-open-power-bi-desktop)
-   - [Step 2: Click "Get Data"](#step-2-click-get-data)
-   - [Step 3: Choose Your Database Type](#step-3-choose-your-database-type)
-   - [Step 4: Enter Connection Details](#step-4-enter-connection-details)
-   - [Step 5: Authenticate](#step-5-authenticate)
-   - [Step 6: Select Tables & Load Data](#step-6-select-tables--load-data)
-2. [Exporting & Sharing Files from Power BI](#2-exporting--sharing-files-from-power-bi)
-   - [Option A: Export as PDF](#option-a-export-as-pdf)
-   - [Option B: Export as PowerPoint (PPTX)](#option-b-export-as-powerpoint-pptx)
-   - [Option C: Publish to Power BI Service](#option-c-publish-to-power-bi-service)
-3. [Sending Reports via Email (PDF/PPT)](#3-sending-reports-via-email-pdfppt)
-   - [Method 1: Email Subscriptions (Power BI Service)](#method-1-email-subscriptions-power-bi-service)
-   - [Method 2: Manually Send an Exported File](#method-2-manually-send-an-exported-file)
-4. [Tips & Best Practices](#4-tips--best-practices)
-
----
 
 ## 1. Accessing Data from a Database
 
