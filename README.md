@@ -15,7 +15,7 @@ Power BI supports connections to a wide range of database types including **SQL 
 
 Launch **Power BI Desktop** from your applications. You will land on the start screen or an existing report canvas.
 
->  Don't have Power BI Desktop? Download it free from [PowerBI Dashboard](https://github.com/Kilemba/PowerBI/blob/main/image.png).
+>  Don't have Power BI Desktop? Download it free from ![PowerBI Dashboard](https://github.com/Kilemba/PowerBI/blob/main/assets/PowerBI%20dashboard.png).
 
 ---
 
