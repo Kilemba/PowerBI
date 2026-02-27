@@ -57,7 +57,7 @@ A connection dialog will appear. Fill in the required fields:
   - `Import` — Loads data into Power BI (faster performance, offline capable)
   - `DirectQuery` — Queries the live database every time (always fresh, no data stored locally)
 
-![Power BI SQL Server connection dialog with server and database fields](screenshot_sql_connection)
+![Power BI SQL Server connection dialog with server and database fields](https://github.com/Kilemba/PowerBI/blob/main/assets/Aunthentication.png)
 
 >  For large datasets, **DirectQuery** is recommended to avoid memory limits. For smaller datasets, **Import** gives better performance.
 
