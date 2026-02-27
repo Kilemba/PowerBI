@@ -2,12 +2,12 @@
 Step-by-step Markdown guide (with screenshots) on connecting Power BI to a database, accessing and transforming data, exporting reports, and submitting files as PPT or PDF via email directly from Power BI. Perfect for beginners learning reporting and dashboard delivery workflows.
 # Power BI: Complete Guide to Database Connections, File Sharing & Report Delivery
 
-> A practical walkthrough for connecting to databases, exporting files, and sending reports via email — all from Microsoft Power BI.
+> A practical walkthrough for connecting to databases, exporting files, and sending reports via email - all from Microsoft Power BI.
 
 
 ## 1. Accessing Data from a Database
 
-Power BI supports connections to a wide range of database types including **SQL Server**, **MySQL**, **PostgreSQL**, **Oracle**, **Azure SQL**, and more.
+Power BI supports connections to a wide range of database types including **SQL Server**, **MySQL**, **PostgreSQL**, **Oracle**, **Azure SQL** and more.
 
 ---
 
@@ -25,13 +25,13 @@ On the **Home** ribbon at the top, click the **Get Data** button (or the dropdow
 
 ![Power BI Get Data ribbon button showing data source options](https://github.com/Kilemba/PowerBI/blob/main/assets/get-data-from-web.png)
 
-> The **Get Data** menu is your gateway to all data sources — local files, cloud services, and databases.
+> The **Get Data** menu is your gateway to all data sources - local files, cloud services and databases.
 
 ---
 
 ### Step 3: Choose Your Database Type
 
-A dialog will appear showing all available data source categories. Click **Database** in the left panel, then select your database type from the list:
+A dialog will appear showing all available data source categories. Click **Database** in the left panel then select your database type from the list:
 
 | Database Type | Use Case |
 |---|---|
@@ -52,10 +52,10 @@ Click **Connect** after selecting your database type.
 A connection dialog will appear. Fill in the required fields:
 
 - **Server** — The server hostname or IP address (e.g., `myserver.database.windows.net`)
-- **Database** — The name of the specific database you want to connect to (optional — Power BI will list all databases if left blank)
-- **Data Connectivity Mode** — Choose one:
-  - `Import` — Loads data into Power BI (faster performance, offline capable)
-  - `DirectQuery` — Queries the live database every time (always fresh, no data stored locally)
+- **Database** — The name of the specific database you want to connect to (optional - Power BI will list all databases if left blank)
+- **Data Connectivity Mode** - Choose one:
+  - `Import` - Loads data into Power BI (faster performance, offline capable)
+  - `DirectQuery` - Queries the live database every time (always fresh, no data stored locally)
 
 ![Power BI SQL Server connection dialog with server and database fields](https://github.com/Kilemba/PowerBI/blob/main/assets/Aunthentication.png)
 
@@ -69,9 +69,9 @@ Click **OK** to proceed.
 
 Power BI will prompt you to authenticate with the database. Choose the appropriate method:
 
-- **Windows** — Use your Windows/Active Directory credentials (common for corporate SQL Server)
-- **Database** — Enter a username and password directly
-- **Microsoft Account** — For Azure cloud databases
+- **Windows** - Use your Windows/Active Directory credentials (common for corporate SQL Server)
+- **Database** - Enter a username and password directly
+- **Microsoft Account** - For Azure cloud databases
 
 Enter your credentials and click **Connect**.
 
@@ -79,15 +79,15 @@ Enter your credentials and click **Connect**.
 
 ### Step 6: Select Tables & Load Data
 
-The **Navigator** window will appear, showing all available tables and views in the database. 
+The **Navigator** window will appear showing all available tables and views in the database. 
 
 1. **Browse** the list on the left and check the boxes next to the tables you need
 2. **Preview** the data on the right before loading
-3. Click **Load** to import the data directly, or **Transform Data** to open the Power Query Editor for data cleaning first
+3. Click **Load** to import the data directly or **Transform Data** to open the Power Query Editor for data cleaning first
 
 ![Power BI Navigator window showing database tables with preview pane](screenshot_navigator)
 
->  Use **Transform Data** if you need to filter rows, rename columns, merge tables, or change data types before loading.
+>  Use **Transform Data** if you need to filter rows, rename columns, merge tables or change data types before loading.
 
 Once loaded, your tables will appear in the **Fields** pane on the right side of Power BI Desktop, ready for building visualizations.
 
@@ -101,17 +101,17 @@ Once you've built your report, Power BI offers several ways to export and share 
 
 ### Option A: Export as PDF
 
-Exporting to PDF creates a static, print-ready document of your report — ideal for sharing with stakeholders who don't use Power BI.
+Exporting to PDF creates a static, print-ready document of your report - ideal for sharing with stakeholders who don't use Power BI.
 
 **Steps (Power BI Desktop):**
 
-1. Go to **File** → **Export** → **Export to PDF**
+1. Go to **File** > **Export** > **Export to PDF**
 2. Power BI will render each page of your report as a PDF page
-3. A **Save As** dialog will appear — choose your destination folder and click **Save**
+3. A **Save As** dialog will appear - choose your destination folder and click **Save**
 
-**Steps (Power BI Service — browser):**
+**Steps (Power BI Service - browser):**
 
-1. Open your published report in [app.powerbi.com](https://app.powerbi.com)
+1. Open your published report
 2. Click the **Export** button in the top toolbar
 3. Select **PDF**
 4. Choose whether to export the **current page** or **all pages**
@@ -129,13 +129,13 @@ Power BI can export each report page as a **PowerPoint slide**, making it easy t
 
 **Steps (Power BI Service):**
 
-1. Open your report at [app.powerbi.com](https://app.powerbi.com)
+1. Open your report
 2. Click the **Export** button in the top menu bar
 3. Select **PowerPoint**
 4. Choose between:
-   - **Current values** — exports the report as static images of the current state
-   - **Default values** — exports with default filter states
-5. Click **Export** — a `.pptx` file will download
+   - **Current values** - exports the report as static images of the current state
+   - **Default values** - exports with default filter states
+5. Click **Export** - a `.pptx` file will download
 
 ![Power BI export to PowerPoint showing slide output of report pages](screenshot_export_ppt)
 
@@ -143,7 +143,7 @@ Power BI can export each report page as a **PowerPoint slide**, making it easy t
 
 **Steps (Power BI Desktop):**
 
-1. Go to **File** → **Export** → **Export to PowerPoint**
+1. Go to **File** > **Export** > **Export to PowerPoint**
 2. The report will be rendered and saved as a `.pptx` file
 
 ---
@@ -157,13 +157,13 @@ Publishing makes your report available online where team members can view it in 
 1. In **Power BI Desktop**, click **Publish** in the Home ribbon
 2. Sign in to your Microsoft/Power BI account if prompted
 3. Select a **Workspace** to publish to (e.g., "My Workspace" or a shared team workspace)
-4. Click **Select** — Power BI will upload the report and dataset
+4. Click **Select** - Power BI will upload the report and dataset
 
 ![Power BI publish to service showing workspace selection dialog](screenshot_publish)
 
 5. Once complete, click the link in the success dialog to open the report in your browser
 
-> Your report is now live at `app.powerbi.com` and can be shared with a link, embedded in SharePoint, or used to set up email subscriptions.
+> Your report is now live at `app.powerbi.com` and can be shared with a link, embedded in SharePoint or used to set up email subscriptions.
 
 ---
 
@@ -175,12 +175,12 @@ Power BI offers both **automated scheduled email delivery** and **manual export 
 
 ### Method 1: Email Subscriptions (Power BI Service)
 
-Subscriptions let you (and others) receive **automatic email snapshots** of a report on a schedule — daily, weekly, or monthly.
+Subscriptions let you (and others) receive **automatic email snapshots** of a report on a schedule - daily, weeklymor monthly.
 
 **Steps:**
 
 1. Open your published report in [app.powerbi.com](https://app.powerbi.com)
-2. Click the **Subscribe** icon (envelope icon) or go to **File** → **Subscribe to report**
+2. Click the **Subscribe** icon (envelope icon) or go to **File** > **Subscribe to report**
 3. Click **+ Add new subscription**
 
 ![Power BI subscribe to report email subscription setup panel](screenshot_subscribe)
@@ -221,7 +221,7 @@ Open your email client (Outlook, Gmail, etc.) and compose a new email:
 3. Add your recipients, subject, and message
 4. Click **Send**
 
->  **For Outlook users:** You can also right-click the exported file in File Explorer → **Send to** → **Mail recipient** to quickly open a pre-attached email draft.
+>  **For Outlook users:** You can also right-click the exported file in File Explorer > **Send to** → **Mail recipient** to quickly open a pre-attached email draft.
 
 ---
 
