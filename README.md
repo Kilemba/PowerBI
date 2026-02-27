@@ -215,7 +215,7 @@ Open your email client (Outlook, Gmail, etc.) and compose a new email:
 If your organization uses **Microsoft Teams**, you can share Power BI reports directly:
 
 1. Open the report in Power BI Service
-2. Click **Share** → **Chat in Teams**
+2. Click **Share** > **Chat in Teams**
 3. Search for a Teams channel or person
 4. Add a message and click **Share**
 
