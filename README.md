@@ -79,7 +79,7 @@ The **Navigator** window will appear showing all available tables and views in t
 2. **Preview** the data on the right before loading
 3. Click **Load** to import the data directly or **Transform Data** to open the Power Query Editor for data cleaning first
 
-![Power BI Navigator window showing database tables with preview pane](screenshot_navigator)
+(screenshot_navigator)
 
 >  Use **Transform Data** if you need to filter rows, rename columns, merge tables or change data types before loading.
 
