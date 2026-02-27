@@ -23,7 +23,7 @@ Launch **Power BI Desktop** from your applications. You will land on the start s
 
 On the **Home** ribbon at the top, click the **Get Data** button (or the dropdown arrow next to it for a quick list of sources).
 
-![Power BI Get Data ribbon button showing data source options](https://github.com/Kilemba/PowerBI/blob/main/Database%20connection.png)
+![Power BI Get Data ribbon button showing data source options](../Database connection.png)
 
 > The **Get Data** menu is your gateway to all data sources — local files, cloud services, and databases.
 
